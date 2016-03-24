@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PrimeFacesVenta:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PrimeFacesVenta_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PrimeFacesVenta/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PrimeFacesVenta" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="library" level="project" name="mysql-connector-java-3.1.14-bin" />
+          <element id="library" level="project" name="omnifaces-1.8.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
